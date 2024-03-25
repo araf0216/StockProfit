@@ -9,8 +9,6 @@ int maxProfit(int *prices, int pricesSize, int *buy_date, int *sell_date)
 
     // sets initial profit amount to 0
     int profit = 0;
-    // int buy_date;
-    // int sell_date;
 
     // loop that performs two pointer algorithm - second pointer iterates through the daily stock prices
     for (q = p + 1; q < prices + pricesSize; q++)
